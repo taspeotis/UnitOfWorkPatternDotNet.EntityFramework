@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>UnitOfWorkPatternDotNet.EntityFramework</id>
+        <version>1.0.0</version>
+        <title>UnitOfWorkPatternDotNet.EntityFramework</title>
+        <authors>ta.speot.is</authors>
+        <owners>ta.speot.is</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An (extremely) lightweight UoW implementation for Entity Framework.</description>
+        <summary />
+        <copyright>Copyright Todd Aspeotis 2013</copyright>
+        <dependencies>
+            <dependency id="UnitOfWorkPatternDotNet" />
+            <dependency id="EntityFramework" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="UnitOfWorkPatternDotNet.EntityFramework\bin\Release\UnitOfWorkPatternDotNet.EntityFramework.dll" target="lib\net45\UnitOfWorkPatternDotNet.EntityFramework.dll" />
+    </files>
+</package>
