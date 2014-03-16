@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>ta.speot.is</authors>
+    <description>An (extremely) lightweight UoW implementation for Entity Framework.</description>
+  </metadata>
+</package>

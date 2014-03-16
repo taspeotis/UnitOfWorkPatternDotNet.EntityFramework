@@ -4,9 +4,9 @@ namespace UnitOfWorkPatternDotNet.EntityFramework
 {
     public class EntityFrameworkUnitOfWork : DbContext, IUnitOfWork
     {
-        public void Commit()
+        public int? Commit()
         {
-            SaveChanges();
+            return SaveChanges();
         }
     }
 }
